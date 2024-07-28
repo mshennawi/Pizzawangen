@@ -31,11 +31,11 @@ const Paner = () => {
                   Gerichte zum Mitnehmen bestellen.
                 </span>{" "}
                 <br />
-                Und jetzt bequem online bestellen und abholen oder schnell liefern
+                Jetzt bequem online bestellen und abholen oder schnell liefern
                 lassen.
                 <br />
-                <br /> Bei uns kannst du dein Lieblingsessen ganz einfach
-                bestellen und bequem nach
+                <br />
+                Bei uns kannst du dein Lieblingsessen ganz einfach bestellen und bequem nach Hause liefern lassen.
               </h2>
 
               <Link to="menue">

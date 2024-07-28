@@ -133,7 +133,7 @@ const CheckOutForm = () => {
           <form id="orderForm" onSubmit={handleSubmit}>
             <h2>Check Out</h2>
             <div className="form-group">
-              <label htmlFor="name">Salute:</label>
+              <label htmlFor="name">Anrede:</label>
               <select
                 id="salute"
                 name="salute"

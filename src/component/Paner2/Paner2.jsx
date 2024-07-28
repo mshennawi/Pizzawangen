@@ -31,7 +31,7 @@ const Paner2 = () => {
                   <span className="highlight">Bei Wangen's Pizza</span>{" "}
                   geniessen Sie exzellente Speisen und Getränke in einem
                   entspannten Ambiente.
-                  <br />
+                  <br /><br />
                   Wir vereinen geschickt die raffinierte italienische Esskultur
                   mit dem{" "}
                   <span className="highlight">Schweizer Lebensstil.</span>

@@ -56,10 +56,10 @@ const Footer = () => {
                 <a href="https://www.facebook.com/profile.php?id=100079034319158">
                   <img src={Facebook} alt="facebook" className="icon" />
                 </a>
-                <a href="www.google.com">
+                <a href="https://x.com/WangenKebabHaus">
                   <img src={Twitter} alt="twitter" className="icon" />
                 </a>
-                <a href="www.google.com">
+                <a href="https://www.instagram.com/wange_kebab_haus_sz/?hl=en">
                   <img src={Instgram} alt="instgram" className="icon" />
                 </a>
               </div>
