@@ -39,11 +39,11 @@ function RegisterCom() {
                     <input onChange={getRegisterInfo(setStreet)} type="text" id="street" name="street" required />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="salute">salute</label>
+                    <label htmlFor="salute">Anrede</label>
                     <input onChange={getRegisterInfo(setSalute)} type="text" id="salute" name="salute" required />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="city">city</label>
+                    <label htmlFor="city">Ort</label>
                     <input onChange={getRegisterInfo(setCity)} type="text" id="city" name="city" required />
                 </div>
                 <div className="form-group">

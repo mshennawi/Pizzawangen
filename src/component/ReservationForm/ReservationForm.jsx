@@ -104,7 +104,7 @@ const ReservationForm = () => {
           </p>
         </div>
         <div className="form-group">
-          <label htmlFor="salute">Salute:</label>
+          <label htmlFor="salute">Anrede:</label>
           <select
             id="salute"
             name="salute"
@@ -113,7 +113,7 @@ const ReservationForm = () => {
             value={formData.salute}
           >
             <option value="" disabled>
-              Select Salute
+              Anrede
             </option>
             <option value="Herr">Herr</option>
             <option value="Frau">Frau</option>

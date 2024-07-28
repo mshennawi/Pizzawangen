@@ -142,7 +142,7 @@ const CheckOutForm = () => {
                 value={formData.salute}
               >
                 <option value="" disabled>
-                  Select Salute
+                  Anrede
                 </option>
                 <option value="Herr">Herr</option>
                 <option value="Frau">Frau</option>
@@ -160,7 +160,7 @@ const CheckOutForm = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="street">Straße:</label>
+              <label htmlFor="street">Strasse:</label>
               <input
                 type="text"
                 id="street"
@@ -171,7 +171,7 @@ const CheckOutForm = () => {
             </div>
 
             <div className="form-group">
-              <label htmlFor="city">Stadt:</label>
+              <label htmlFor="city">Ort:</label>
               <input
                 type="text"
                 id="city"
@@ -221,7 +221,7 @@ const CheckOutForm = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="mobile">mobile:</label>
+              <label htmlFor="mobile">Mobile:</label>
               <input
                 type="text"
                 id="mobile"

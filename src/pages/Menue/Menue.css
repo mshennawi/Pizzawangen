@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     .btn {
       margin-top: 20px;
       display: flex;
