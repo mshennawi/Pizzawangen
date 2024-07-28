@@ -1,0 +1,123 @@
+.checkContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+  .checkPolicy {
+    width: 40%;
+    padding: 40px;
+    p {
+      color: white;
+      font-size: 1.4rem;
+      line-height: 35px;
+      text-align: center;
+    }
+    .p-link {
+      color: rgb(104, 104, 246);
+      text-decoration: underline;
+    }
+  }
+  .check {
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 30px 20px;
+    color: var(--primary-color);
+    .highlight {
+      text-align: start !important;
+      margin-bottom: 40px;
+      margin-top: 30px;
+      font-size: 1.5rem;
+    }
+    hr {
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+      background-color: var(--primary-color);
+    }
+    p {
+      color: rgb(183, 183, 183);
+    }
+    .price-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      padding: 0 30px;
+      p {
+        color: white;
+        font-size: 18px;
+      }
+    }
+    .price-container:last-of-type {
+      border: 1px solid white;
+      padding: 10px 30px;
+      h2,
+      p {
+        color: var(--primary-color);
+      }
+    }
+    label {
+      text-align: start;
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: white;
+      /* padding: 20px; */
+      input {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+      }
+    }
+    .btn-pay {
+      display: block;
+      margin: auto;
+      padding: 10px 20px;
+      color: black;
+      background-color: var(--primary-color);
+      border: 0;
+      cursor: pointer;
+      margin-top: 40px;
+      font-size: 18px;
+      transition: 0.3s ease-in-out;
+    }
+    .btn-pay:hover {
+      background-color: white;
+      color: var(--primary-color);
+      transform: scale(1.1);
+    }
+    .disable {
+      cursor: not-allowed;
+    }
+    
+  }
+}
+
+@media only screen and (max-width: 895px) {
+  .checkContainer {
+    flex-direction: column;
+  align-items: center;
+  .checkPolicy{
+    width: 70%;
+  }
+  .check {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 695px) {
+   .checkContainer {
+
+     .checkPolicy,.check{
+       width: 90%;
+      }
+      .checkPolicy p{
+        font-size: 14px;
+      }
+    }
+  }
+}

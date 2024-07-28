@@ -1,0 +1,173 @@
+/* footer style */
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: var(--card-bg);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  .footer-extras {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      p {
+        color: rgb(255, 179, 3);
+        margin-left: 30px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+.footer__wrapper {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.footer__logo {
+  width: 40%;
+}
+
+.footer__box {
+  width: 33%;
+}
+
+.footer__logo p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.subscribe__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  width: 90%;
+}
+
+.footer__link-title {
+  margin-bottom: 10px;
+  color: rgb(255, 179, 3);
+  font-size: 1.5rem;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.social-icons {
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(255, 179, 3);
+  .icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+}
+.footer__link {
+  color: var(--small-text-color);
+  font-size: 18px;
+  color: white;
+  line-height: 1.2;
+  margin-top: -10px;
+}
+.company-time{
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 50px;
+}
+.info-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    text-align: center;
+  }
+}
+hr {
+  color: #acb2b2;
+  margin-top: 50px;
+}
+.light-soft {
+  text-align: center;
+  color: rgb(210, 210, 210);
+  /* text-decoration: underline; */
+  margin-top: 5px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0px;
+  }
+  .footer__logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__wrapper {
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: center;
+  }
+
+  .footer__box {
+    width: 45%;
+  }
+
+  .subscribe__box {
+    width: 100%;
+  }
+
+  .footer__link-title {
+    font-size: 1.5rem;
+  }
+
+  .footer__link {
+    font-size: 18px;
+  }
+
+  .footer__copyright {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .footer{
+    .footer-extras{
+      justify-content: center;
+      div{
+        justify-content: center;
+      }
+    }
+    
+    .footer-extras div p {
+      font-size: .8rem;
+    }
+  }
+  .footer__box {
+    width: 90%;
+    text-align: center;
+  }
+  .footer__link {
+    font-size: 18px;
+  }
+  .info-company {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
