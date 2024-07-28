@@ -31,7 +31,7 @@ const Paner = () => {
                   Gerichte zum Mitnehmen bestellen.
                 </span>{" "}
                 <br />
-                Jetzt bequem online bestellen und abholen oder schnell liefern
+                Und jetzt bequem online bestellen und abholen oder schnell liefern
                 lassen.
                 <br />
                 <br /> Bei uns kannst du dein Lieblingsessen ganz einfach
